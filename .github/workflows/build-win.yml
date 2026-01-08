@@ -26,7 +26,7 @@ jobs:
           --noconsole ^
           --onefile ^
           --name PDFGrader ^
-          理论打分.py
+          "理论打分.py"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
