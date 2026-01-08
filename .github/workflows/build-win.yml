@@ -21,6 +21,7 @@ jobs:
         pip install pyinstaller
 
     - name: Build exe
+      shell: cmd
       run: |
         pyinstaller ^
           --noconsole ^
